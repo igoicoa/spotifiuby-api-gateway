@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router()
 const axios = require('axios');
-const registry = require('./registry.json');
+const services = require('./services.json');
 
 router.all('/:apiName/:path', (req, res) => {
-    const url = registry.services[req.params.apiName].url
+    const url = services.services[req.params.apiName].url
     console.log("API: " + req.params.apiName + ". Path to invoke: " + url + req.params.path)
     axios({
         method: req.method,
@@ -19,7 +19,7 @@ router.all('/:apiName/:path', (req, res) => {
 })
 
 router.all('/:apiName/:path/:id', (req, res) => {
-    const url = registry.services[req.params.apiName].url
+    const url = services.services[req.params.apiName].url
     console.log("API: " + req.params.apiName + ". Path to invoke: " + url + req.params.path + '/' + req.params.id,)
     axios({
         method: req.method,
