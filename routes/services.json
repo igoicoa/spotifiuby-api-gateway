@@ -7,6 +7,14 @@
         "usersAPI": {
             "apiName": "usersAPI",
             "url": "https://gorest.co.in/public/v2/"
+        },
+        "spotifiuby-multimedia": {
+            "apiName": "spotifiuby-multimedia",
+            "url": "https://spotifiuby-multimedia.herokuapp.com/"
+        },
+        "spotifiuby-back-users": {
+            "apiName": "spotifiuby-back-users",
+            "url": "http://spotifiuby-back-users.herokuapp.com/"
         }
     }
 }
