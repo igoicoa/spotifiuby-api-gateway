@@ -1,0 +1,12 @@
+{
+    "services": {
+        "employeesAPI": {
+            "apiName": "employeesAPI",
+            "url": "https://dummy.restapiexample.com/api/v1/"
+        },
+        "usersAPI": {
+            "apiName": "usersAPI",
+            "url": "https://gorest.co.in/public/v2/"
+        }
+    }
+}
