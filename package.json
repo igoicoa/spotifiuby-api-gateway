@@ -4,7 +4,7 @@
   "description": "API Gateway for spotifiuby",
   "main": "gateway.js",
   "engines": {
-    "node": "16.x"
+    "node": "16.14.2"
   },
   "scripts": {
     "dev": "nodemon gateway.js",
